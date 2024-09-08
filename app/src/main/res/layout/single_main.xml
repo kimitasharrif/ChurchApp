@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="10dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="5dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:id="@+id/labimage"-->
+<!--            android:src="@drawable/screen2"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear1"
+            android:orientation="vertical">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2024-08-03"
+                android:textSize="14sp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:id="@+id/desk_date"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WORD FROM PASTOR'S DESK"
+                android:textSize="14sp"
+                android:textColor="#0C2EF1" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="THE BIRTH OF CHURCH AND ITS CHALLENGES"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/desk_title"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The church age started on the day of Pentacost when God the Holy Spirit
+  came upon individual believers.The church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy SpiritThe church age started on the day of Pentacost when God the Holy Spirit........"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="6dp"
+                android:id="@+id/desk_message"/>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
