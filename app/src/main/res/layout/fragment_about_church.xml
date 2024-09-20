@@ -4,11 +4,150 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AboutChurchFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PEFA CHURCH KAYOLE B"
+        android:textAlignment="center"
+        android:id="@+id/church_name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="27dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="P.O. BOX 5790-00200 Nairobi."/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYBILL NO : 4068291"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/paybill"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACC NO : TITHE/OFFERING"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/account_no"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THEME:"
+            android:textSize="20dp"
+            android:textColor="@color/teal_200"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DOMINION. (Genesis 1:26-28)"
+            android:textAlignment="center"
+            android:textColor="@color/error_red"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISION:"
+            android:textColor="@color/teal_200"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/theme"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:text="Making disciples of all nations (Mathew 28:19)"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MISSION:"
+            android:textColor="@color/teal_200"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mission"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="To be a church that effectively and rightely declares the message of the scripture that is socially and spiritually relevant, equipping saints to do the work of the ministry."/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MINISTRY PURPOSE:"
+            android:textColor="@color/teal_200"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ministry_message"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:text="To bring people to Christ and to the membership of His family, disciple and equip the for(Ephesians 4:12)\r\n\r\nTo add value in people lives, through teaching and biblical principles and being a role model,\r\n\r\nTo develop a Kingdom community that impacts other communities.\r\nExample Academic Community\r\n and Business Community"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OUR CORE VALUES:"
+            android:textColor="@color/teal_200"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/core_message"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:text="We are a family.\r\n.Excellence in Service\r\n.Sound Biblical Teachings.\r\n.Learning.\r\n.God Centered worship.\r\n.Children Ministry.\r\n"/>
+    </LinearLayout>
+
+
+</ScrollView>
 </FrameLayout>

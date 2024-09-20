@@ -25,5 +25,26 @@
             android:icon="@drawable/ic_profile"
             android:title="@string/menu_profile" />
 
+        <!-- Social Media Links -->
+        <item
+            android:id="@+id/nav_youtube"
+            android:icon="@drawable/ic_youtube"
+            android:title="YouTube" />
+        <item
+            android:id="@+id/nav_instagram"
+            android:icon="@drawable/ic_instagram"
+            android:title="Instagram" />
+        <item
+            android:id="@+id/nav_tiktok"
+            android:icon="@drawable/ic_tiktok"
+            android:title="TikTok" />
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/ic_facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/nav_whatsapp"
+            android:icon="@drawable/ic_whatsapp"
+            android:title="WhatsApp" />
     </group>
 </menu>

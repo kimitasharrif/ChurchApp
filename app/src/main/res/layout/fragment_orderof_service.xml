@@ -5,10 +5,50 @@
     android:layout_height="match_parent"
     tools:context=".ui.OrderofServiceFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <com.google.android.material.textview.MaterialTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="ANNOUNCEMENTS"
+               android:textSize="27sp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textAlignment="center"/>
+           <com.google.android.material.textview.MaterialTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="1. Our first service run as from 8:30am to 10:15am and the second service as from 10:40am to 1:00pm."
+               android:textColor="@color/black"/>
+           <com.google.android.material.textview.MaterialTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=" 2.Tuesday home fellowships will meet as from 6:30pm at the following homes;"
+               android:textColor="@color/black"/>
+           <com.google.android.material.textview.MaterialTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="3. MID-WEEK SERVICE: 6:30pm to 7:45pm , All are welcome."
+               android:textColor="@color/black"/>
+           <com.google.android.material.textview.MaterialTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="4. Other announcements will appear here."
+               android:textColor="@color/black"/>
+           <com.google.android.material.textview.MaterialTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="5. Other announcements will appear here."
+               android:textColor="@color/black"/>
+
+
+
+       </LinearLayout>
+   </ScrollView>
 
 </FrameLayout>
